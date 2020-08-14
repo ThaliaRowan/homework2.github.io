@@ -3,7 +3,8 @@ body {
     background-color: #ece9e9;
 }
 
-header {
+
+header{
     background-color: #d0c6d0;
     font-family: serif;
 }
@@ -114,4 +115,21 @@ header {
 
 #myform{
    margin-top: 6%;
+}
+
+footer{
+    position: sticky;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color:#454545;
+    color: white;
+    text-align: center;
+}
+
+.myFooter{
+    padding-top: 3%;
+}
+
+.myCopy{
+    margin: 3px;
 }
