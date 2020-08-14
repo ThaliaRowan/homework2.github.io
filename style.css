@@ -1,0 +1,117 @@
+body {
+    font-family: serif;
+    background-color: #ece9e9;
+}
+
+header {
+    background-color: #d0c6d0;
+    font-family: serif;
+}
+
+
+.navbar-brand{
+    padding-left: 10%;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+
+#navbarNavAltMarkup{
+    padding-left: 58%;
+    
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.card-body{
+    background-color: white;
+}
+
+#ab {
+    margin-top: 12%;
+}
+
+.card-header {
+    background-color: white;
+    padding: 5%;
+    padding-bottom: 1px;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+    
+
+#port{
+    margin-top: 6%;
+}
+
+#no1,#no2,#no3,#no4,#no5{
+  padding: 1% ;
+  padding-bottom: 15%;
+}
+
+#portHead{
+    font-size: 2.5rem;
+    
+}
+
+#no1:hover{
+    position:relative;
+    top:-10px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999999999;
+
+}
+
+
+#no2:hover{
+    position:relative;
+    top:-10px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999999999;
+
+}
+
+
+#no3:hover{
+    position:relative;
+    top:-10px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999999999;
+
+}
+
+
+#no4:hover{
+    position:relative;
+    top:-10px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999999999;
+
+}
+
+
+#no5:hover{
+    position:relative;
+    top:-10px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999999999;
+
+}
+
+#myform{
+   margin-top: 6%;
+}
