@@ -1,7 +1,9 @@
+
 body {
     font-family: serif;
     background-color: #ece9e9;
 }
+
 
 
 header{
@@ -11,7 +13,7 @@ header{
 
 
 .navbar-brand{
-    padding-left: 10%;
+    padding-left: 12.5%;
     font-weight: bold;
     color: white;
     font-size: 2rem;
