@@ -128,9 +128,13 @@ footer{
     text-align: center;
 }
 
-.myFooter{
-    padding-top: 3%;
+.footer-copyright{
+    margin-bottom: 0;
+    margin-top: 100px;
+    background-color: #bdbdbd;
+    color: #454545;
 }
+
 
 .myCopy{
     margin: 3px;
