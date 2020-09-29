@@ -40,7 +40,8 @@ header{
 
 
 .card-body{
-    background-color: white;
+    background-color: #373737;
+    border-style:  black;
 }
 
 #ab {
