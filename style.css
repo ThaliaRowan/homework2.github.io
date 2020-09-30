@@ -10,6 +10,7 @@ body {
 header{
     
     font-family: serif;
+    
 }
 
 .fName{
@@ -18,6 +19,10 @@ header{
  
 .navbar {
     background-color: #000000;
+}
+
+#nvs {
+    float: right;
 }
 
 
@@ -30,7 +35,19 @@ header{
 
 .nav-link:hover {
     background-color: 484848;
-    color: black;
+    color: #484848;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+#logo:hover{
+    color: #484848;
+}
+
+.navbar-toggler {
+    background-color: #484848;
 }
 
 #aboutMe {
@@ -47,6 +64,7 @@ header{
 #ab {
     margin-top: 12%;
 }
+
 
 .card-header {
     background-color: white;
