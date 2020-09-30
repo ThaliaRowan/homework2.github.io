@@ -27,7 +27,7 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-md-4" id="port">
+            <div class="col-md-4" id="port1">
               <div class="card" style="width: 15rem; height: 15rem;">
                 <div class="card-body">
                   <h2 class="card-text">REMEMBER THE BAGS!</h2>
@@ -35,7 +35,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" id="port">
+            <div class="col-md-4" id="port2">
               <div class="card" style="width: 15rem; height: 15rem;">
                 <div class="card-body">
                   <h2 class="card-text">Weather Dashboard</h2>
@@ -43,19 +43,50 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" id="port">
+            <div class="col-md-4" id="port3">
               <div class="card" style="width: 15rem; height: 15rem;">
-                <div class="card-body">
-                  <h2 class="card-text">Password Generator</h2>
-                  
+                <img class="card-img-top" src="./assets/pG.png" alt="Card image">
+                <div class="card-img-overlay">
+                     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" id="viewBtn" data-toggle="modal" data-target="#exampleModalLong">
+ View
+</button>
                 </div>
+              </div>
+            </div>
+            
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+
     
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="color: black;">Password Generator</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/pG.png" id="pImg">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

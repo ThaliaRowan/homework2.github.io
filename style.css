@@ -76,7 +76,7 @@ header{
 }
     
 
-#port{
+#port1, #port2, #port3{
     margin-top: 6%;
 }
 
@@ -89,8 +89,57 @@ header{
     font-size: 2.5rem;
     
 }
+.card {
+  position: relative;
+  overflow: hidden;
+}
 
-#no1:hover{
+.card:hover .card-img-overlay {
+    top: 0;
+    
+  }
+  
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    top: -100%;
+    background-color: rgba(10, 10, 10, 0.747);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: left .7s;
+  }
+
+#viewBtn {
+    position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    
+
+}
+
+#viewBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+#port3:hover{
     position:relative;
     top:-10px;
     width:700px;
@@ -101,7 +150,7 @@ header{
 }
 
 
-#no2:hover{
+#port2:hover{
     position:relative;
     top:-10px;
     width:700px;
@@ -142,6 +191,10 @@ header{
     display:block;
     z-index:999999999;
 
+}
+
+#pImg {
+    width: 30rem;
 }
 
 #myform{
