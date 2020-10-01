@@ -4,25 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous"
+        />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-      <header class="navbar navbar-expand navbar-dark  ">
-        <nav class="justify-content">
-          <a class="navbar-brand" href="#">Thalia Romany</a>
-          <ul class="navbar-nav ml-auto">
+     
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="index.html" id="logo">Thalia Romany</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
-              <a class="nav-link" href="index.html">Portfolio</a>         
-              <a class="nav-link" href="index.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            
           </ul>
-        </nav>
-    </header>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
     <main>
       <section>
         <div class="container">
@@ -35,14 +53,19 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" id="port2">
-              <div class="card" style="width: 15rem; height: 15rem;">
-                <div class="card-body">
-                  <h2 class="card-text">Weather Dashboard</h2>
-                  
+          
+              <div class="col-md-4" id="port2">
+                <div class="card" style="width: 15rem; height: 15rem;">
+                  <img class="card-img-top" src="./assets/img1.png" alt="Card image">
+                  <div class="card-img-overlay">
+                       <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" id="viewBtn" data-toggle="modal" data-target="#exampleModalLong">
+                        View
+                   </button>
+                  </div>
                 </div>
               </div>
-            </div>
+             
             <div class="col-md-4" id="port3">
               <div class="card" style="width: 15rem; height: 15rem;">
                 <img class="card-img-top" src="./assets/pG.png" alt="Card image">
@@ -77,6 +100,19 @@
       </div>
       <div class="modal-body">
         <img src="./assets/pG.png" id="pImg">
+        <p style="color: black;">
+         Using javascript it generates a random password.
+        </p>
+        <p style="color: black;">
+          languages Used: javascript, HTML, Css
+        </p>
+        <p style="color: black;">
+          Link to github repository:
+        </p>
+
+        <button>
+          <a href="https://thaliarowan.github.io/password_Generator.github.io/" target="_blank" >View deployed page</a>
+        </button>
 
       </div>
       <div class="modal-footer">
