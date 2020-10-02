@@ -14,6 +14,10 @@ header {
   font-family: serif;
 }
 
+#myPr{
+  justify-content: center;
+}
+
 .fName {
   text-align: center;
 }
@@ -202,14 +206,22 @@ article{
   margin-top: 6%;
 }
 
-.footer {
+
+#page-container, #page-container2, #page-container3 {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap, #content-wrap2 , #content-wrap3{
+  padding-bottom: 2.5rem;   
+}
+
+#footer {
+  position: absolute;
   bottom: 0;
-  color: #707070;
-  height: 2em;
-  left: 0;
-  position: fixed; /* OldProperty */
-  position: static;/* Updated Property */
-  fo
+  width: 100%;
+  height: 2.5rem;            
+}
 
 .footer-copyright {
   margin-bottom: 0;
