@@ -1,6 +1,6 @@
-# homework2.github.io
 
-# Responsive Portfolio
+
+# My Portfolio
 
 A portfolio consisting of information about myself and the projects I worked on.
  
