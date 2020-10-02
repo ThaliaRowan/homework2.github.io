@@ -2,8 +2,7 @@
 
 # Responsive Portfolio
 
-This project consists of my information, it is a portfolio about myself. It contains an 'about me' page to share 
-my facts, interests, skills and qualities along with my social media. 
+A portfolio consisting of information about myself and the projects I worked on.
  
 Deployed About me page:
  
