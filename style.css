@@ -1,94 +1,106 @@
 
 body {
-    font-family: serif;
-    background-color: #212121;
-    color: white;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: serif;
+  background-color: #212121;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-header{
-    
-    font-family: serif;
-    
+header {
+  font-family: serif;
 }
 
-.fName{
-    text-align: center;
+.fName {
+  text-align: center;
 }
- 
+
+#myPic {
+  border: 5px solid black;
+}
+
 .navbar {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 #nvs {
-    float: right;
+  float: right;
 }
 
-
 .nav-link {
-    border-radius: 3px;
-    padding: 20px;
-    color: white;
-
+  border-radius: 3px;
+  padding: 20px;
+  color: white;
 }
 
 .nav-link:hover {
-    background-color: 484848;
-    color: #484848;
+  background-color: 484848;
+  color: #484848;
 }
 
 .navbar-brand {
-    color: white;
+  color: white;
 }
 
-#logo:hover{
-    color: #484848;
+#logo:hover {
+  color: #484848;
 }
 
 .navbar-toggler {
-    background-color: #484848;
+  background-color: #484848;
 }
 
 #aboutMe {
-    padding: 20px;
-    text-align: center;
+  padding: 60px;
+  text-align: center;
 }
 
+.card {
+  border-style: none;
+  border-color: rgb(65, 60, 60);
+}
 
-
-.card-body{
-    background-color: #373737;
-    border-style:  black;
+.card-body {
+  background-color: #373737;
 }
 
 #ab {
-    margin-top: 12%;
+  margin-top: 12%;
 }
-
 
 .card-header {
-    background-color: white;
-    padding: 5%;
-    padding-bottom: 1px;
-    font-family: serif;
-    font-size: 30px;
-    font-weight: bold;
+  background-color: #373737;
+  padding: 5%;
+  padding-bottom: 1px;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
 }
-    
-
-#port1, #port2, #port3{
-    margin-top: 6%;
+#conBtn {
+  background-color: #616161;
+  border-color: black;
 }
 
-#no1,#no2,#no3,#no4,#no5{
-  padding: 1% ;
+#port1,
+#port2,
+#port3 {
+  margin-top: 6%;
+}
+
+#no1,
+#no2,
+#no3,
+#no4,
+#no5 {
+  padding: 1%;
   padding-bottom: 15%;
 }
 
-#portHead{
-    font-size: 2.5rem;
-    
+#portHead {
+  font-size: 2.5rem;
 }
 .card {
   position: relative;
@@ -96,29 +108,27 @@ header{
 }
 
 .card:hover .card-img-overlay {
-    top: 0;
-    
-  }
-  
+  top: 0;
+}
 
 .card-img-overlay {
-    position: absolute;
-    top: 0;
-    top: -100%;
-    background-color: rgba(10, 10, 10, 0.747);
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transition: left .7s;
-  }
+  position: absolute;
+  top: 0;
+  top: -100%;
+  background-color: rgba(10, 10, 10, 0.747);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: left 0.7s;
+}
 
 #viewBtn {
-    position: absolute;
+  position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -131,94 +141,83 @@ header{
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-    
-
 }
 
-#viewBtn:hover{
-    background-color: black;
-    color: white;
+#viewBtn:hover {
+  background-color: black;
+  color: white;
 }
 
-#port3:hover{
-    position:relative;
-    top:-10px;
-    width:700px;
-    height:auto;
-    display:block;
-    z-index:999999999;
-
+article{
+  padding-bottom: 5%;
 }
 
-
-#port2:hover{
-    position:relative;
-    top:-10px;
-    width:700px;
-    height:auto;
-    display:block;
-    z-index:999999999;
-
+#port3:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
 }
 
-
-#no3:hover{
-    position:relative;
-    top:-10px;
-    width:700px;
-    height:auto;
-    display:block;
-    z-index:999999999;
-
+#port2:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
 }
 
-
-#no4:hover{
-    position:relative;
-    top:-10px;
-    width:700px;
-    height:auto;
-    display:block;
-    z-index:999999999;
-
-}
-
-
-#no5:hover{
-    position:relative;
-    top:-10px;
-    width:700px;
-    height:auto;
-    display:block;
-    z-index:999999999;
-
+#port1:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
 }
 
 #pImg {
-    width: 30rem;
+  width: 30rem;
 }
 
-#myform{
-   margin-top: 6%;
-}
-
-footer{
-    position: sticky;
-    margin-bottom: 0;
-    padding: 10px;
-    background-color:#454545;
-    color: white;
-    text-align: center;
-}
-
-.footer-copyright{
-    margin-bottom: 0;
-    margin-top: 100px;
-    background-color: #bdbdbd;
-    color: #454545;
+#pl3, #pl2, #pl1{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
 }
 
 
-.myCopy{
-    margin: 3px;
+#m1, #m2, #m3 {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+
+}
+
+#myform {
+  margin-top: 6%;
+}
+
+.footer {
+  bottom: 0;
+  color: #707070;
+  height: 2em;
+  left: 0;
+  position: fixed; /* OldProperty */
+  position: static;/* Updated Property */
+  fo
+
+.footer-copyright {
+  margin-bottom: 0;
+  margin-top: 100px;
+  background-color: #bdbdbd;
+  color: #454545;
+}
+
+.myCopy {
+  margin: 3px;
 }
