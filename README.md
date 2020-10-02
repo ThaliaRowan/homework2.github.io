@@ -7,18 +7,18 @@ my facts, interests, skills and qualities along with my social media.
  
 Deployed About me page:
  
- ![](sc1.png)
+ ![](./assets/sc1.png)
  
  
  
  
 Deployed Portfolio page:
  
- ![](sc2.png)
+ ![](./assets/sc2.png)
  
 Deployed Contact page:
  
- ![](sc3.png)
+ ![](./assets/sc3.png)
  
 link to github pages:  https://thaliarowan.github.io/my_Portfolio.github.io/
  
