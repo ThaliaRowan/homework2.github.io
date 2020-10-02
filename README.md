@@ -20,7 +20,7 @@ Deployed Contact page:
  
  ![](sc3.png)
  
-link to github pages: https://thaliarowan.github.io/homework2.github.io/
+link to github pages:  https://thaliarowan.github.io/my_Portfolio.github.io/
  
  
  
