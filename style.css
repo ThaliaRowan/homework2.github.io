@@ -14,7 +14,7 @@ header {
   font-family: serif;
 }
 
-#myPr{
+#myPr, #pr2{
   justify-content: center;
 }
 
@@ -90,7 +90,9 @@ header {
 
 #port1,
 #port2,
-#port3 {
+#port3, 
+#port4
+{
   margin-top: 6%;
 }
 
@@ -184,11 +186,21 @@ article{
   z-index: 999999999;
 }
 
+
+#port4:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
+}
+
 #pImg {
   width: 30rem;
 }
 
-#pl3, #pl2, #pl1{
+#pl3, #pl2, #pl1, #pl4{
   border-radius: 5px;
   padding: 5px;
   background-color: black;
@@ -196,7 +208,7 @@ article{
 }
 
 
-#m1, #m2, #m3 {
+#m1, #m2, #m3,#m4 {
   border-radius: 5px;
   background-color: black;
   color: white;
