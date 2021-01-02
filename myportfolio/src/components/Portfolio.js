@@ -1,5 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
+import  img1 from "../assets/img1.png";
+import remindBags from "../assets/remindBags.jpg";
+import PG from "../assets/pG.png"
+import Burger from "../assets/burger.png"
+
+
+
 
 function Portfolio(){
   return(
@@ -9,7 +16,7 @@ function Portfolio(){
         <Row>
         <Col md="4" id="port1">
         <div className="card" style={{width: '15rem', height: '15rem'}} >
-        <img className="card-img-top" src="./assets/remindBags.jpg" alt="Card image" />
+        <img className="card-img-top" src={remindBags} alt="Card image" />
         <div className="card-img-overlay">
            
            <button type="button" className="btn btn-info btn-lg" id="viewBtn" data-toggle="modal" data-target="#myModal1">View</button>
@@ -20,7 +27,7 @@ function Portfolio(){
       
       <Col md="4" id="port2">
                 <div class="card" style={{width: '15rem', height: '15rem'}}>
-                  <img class="card-img-top" src="./assets/img1.png" alt="Card image" />
+                  <img class="card-img-top" src={img1} alt="Card image" />
                   <div class="card-img-overlay">
                       
                        
@@ -32,7 +39,7 @@ function Portfolio(){
              
             <Col md="4" id="port3">
               <div class="card" style={{width: '15rem', height: '15rem'}}>
-                <img class="card-img-top" src="./assets/pG.png" alt="Card image" />
+                <img class="card-img-top" src={PG} alt="Card image" />
                 <div class="card-img-overlay">
                     
 
@@ -46,7 +53,7 @@ function Portfolio(){
     <Row>
             <Col md="4" id="port4">
               <div class="card" style={{width: '15rem', height: '15rem'}}>
-                <img class="card-img-top" src="./assets/burger.png" alt="Card image" />
+                <img class="card-img-top" src={Burger} alt="Card image" />
                 <div class="card-img-overlay">
                    
   
@@ -72,7 +79,7 @@ function Portfolio(){
         <h4 className="modal-title">Password Generator</h4>
       </div>
       <div className="modal-body">
-        <img className="image-fluid" src="./assets/pG.png" id="pImg" style={{height: '250px' , maxWidth: '100%'}}  /> 
+        <img className="image-fluid" src={PG} id="pImg" style={{height: '250px' , maxWidth: '100%'}}  /> 
         <p>Generates a random password</p>
         <p>Languages/Technologies used: JavaScript</p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/password_Generator.github.io.git" target="_blank">See Repository</a></span></p>
@@ -100,7 +107,7 @@ function Portfolio(){
         <h4 class="modal-title">Weather Dashboard</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/img1.png" id="pImg"  style={{height: '250px' , maxWidth: '100%'}} /> 
+        <img src={img1} id="pImg"  style={{height: '250px' , maxWidth: '100%'}} /> 
         <p>Displays weather forcast of current day and future five days for cities searched.</p>
         <p>Languages/Technologies used: JavaScript/ jQuery and OpenWeatherMap API</p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/weather_Dashboard.github.io.git" target="_blank">See Repository</a></span></p>
@@ -128,7 +135,7 @@ function Portfolio(){
         <h4 class="modal-title">Remember the Bags</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/remindBags.jpg" id="pImg"   style={{height: '250px' , maxWidth: '100%'}} /> 
+        <img src={remindBags} id="pImg"   style={{height: '600px' , maxWidth: '100%'}} /> 
         <p>Reminds you to not leave your reusable plastic bag indide the car as you arrive at your grocery.</p>
         <p>Languages/Technologies used: JavaScript, OpenWeatherMap API, Google Maps API, </p>
         <p>Github Repository Link: <span><a href="https://github.com/dougdavidoff/bags.git" target="_blank">See Repository</a></span></p>
@@ -156,7 +163,7 @@ function Portfolio(){
         <h4 class="modal-title">EAT-DA-Burger</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/burger.png" id="pImg"  style={{maxWidth: '100%'}} /> 
+        <img src={Burger} id="pImg"  style={{maxWidth: '100%'}} /> 
         <p>Allows users to devour a burger and uneat it. This stores the users input into a database.</p>
         <p>Technologies used: JavaScript,JQuery, Nodejs,Mysql, Express, handlebars </p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/burger.git" target="_blank">See Repository</a></span></p>
