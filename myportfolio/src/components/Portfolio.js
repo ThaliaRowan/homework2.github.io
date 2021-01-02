@@ -72,7 +72,7 @@ function Portfolio(){
         <h4 className="modal-title">Password Generator</h4>
       </div>
       <div className="modal-body">
-        <img className="image-fluid" src="./assets/pG.png" id="pImg" style={{height: '250px' , width: '100%'}}  /> 
+        <img className="image-fluid" src="./assets/pG.png" id="pImg" style={{height: '250px' , maxWidth: '100%'}}  /> 
         <p>Generates a random password</p>
         <p>Languages/Technologies used: JavaScript</p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/password_Generator.github.io.git" target="_blank">See Repository</a></span></p>
@@ -100,7 +100,7 @@ function Portfolio(){
         <h4 class="modal-title">Weather Dashboard</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/img1.png" id="pImg"  style={{height: '250px' , width: '100%'}} /> 
+        <img src="./assets/img1.png" id="pImg"  style={{height: '250px' , maxWidth: '100%'}} /> 
         <p>Displays weather forcast of current day and future five days for cities searched.</p>
         <p>Languages/Technologies used: JavaScript/ jQuery and OpenWeatherMap API</p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/weather_Dashboard.github.io.git" target="_blank">See Repository</a></span></p>
@@ -128,7 +128,7 @@ function Portfolio(){
         <h4 class="modal-title">Remember the Bags</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/remindBags.jpg" id="pImg"   style={{height: '250px' , width: '100%'}} /> 
+        <img src="./assets/remindBags.jpg" id="pImg"   style={{height: '250px' , maxWidth: '100%'}} /> 
         <p>Reminds you to not leave your reusable plastic bag indide the car as you arrive at your grocery.</p>
         <p>Languages/Technologies used: JavaScript, OpenWeatherMap API, Google Maps API, </p>
         <p>Github Repository Link: <span><a href="https://github.com/dougdavidoff/bags.git" target="_blank">See Repository</a></span></p>
@@ -156,7 +156,7 @@ function Portfolio(){
         <h4 class="modal-title">EAT-DA-Burger</h4>
       </div>
       <div class="modal-body">
-        <img src="./assets/burger.png" id="pImg"  style={{width: '100%'}} /> 
+        <img src="./assets/burger.png" id="pImg"  style={{maxWidth: '100%'}} /> 
         <p>Allows users to devour a burger and uneat it. This stores the users input into a database.</p>
         <p>Technologies used: JavaScript,JQuery, Nodejs,Mysql, Express, handlebars </p>
         <p>Github Repository Link: <span><a href="https://github.com/ThaliaRowan/burger.git" target="_blank">See Repository</a></span></p>

@@ -1,27 +1,28 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Contact(){
     return (
         <div>
-                <div className="container">
-      <div className="row">
-        <div className="col-md-6" id="myform">
-          <div className="card  mb-3" style={{width: "60rem"}}>
+      <Container>
+      <Row>
+        <Col md="6" id="myform">
+          <div className="card  mb-3" style={{maxWidth: "60rem"}}>
             <div className="card-header">Contact</div>
             <div className="card-body">
               <form>
-                <div className="form-row">
-                  <div className="form-group col">
+                <Row className="form-row">
+                  <Col className="form-group ">
                     <label form="validationDefault01">Name</label>
                     <input
                       type="text"
                       className="form-control"
                       placeholder="Name"
                     />
-                  </div>
-                </div>
-                <div className="form-row">
-                  <div className="form-group col">
+                  </Col>
+                </Row>
+                <Row className="form-row">
+                  <Col className="form-group">
                     <label for="inputEmail4">Email</label>
                     <input
                       type="email"
@@ -29,10 +30,10 @@ function Contact(){
                       placeholder="Email"
                       id="inputEmail4"
                     />
-                  </div>
-                </div>
-                <div className="form-row">
-                  <div className="form-group col">
+                  </Col>
+                </Row>
+                <Row className="form-row">
+                  <Col className="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea
                       className="form-control"
@@ -40,15 +41,15 @@ function Contact(){
                       placeholder="Message"
                       rows="3"
                     ></textarea>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
                 <button type="submit" id="conBtn" className="btn btn-primary">Submit</button>
               </form>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
         </div>
     );
 }
