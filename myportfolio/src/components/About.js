@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
+import Pic from '../assets/myPic.JPG';
+
 function About() {
   return (
 <div> 
@@ -23,7 +25,7 @@ function About() {
             </article>
         </Col> 
         <Col lg="6">
-        <img src="./assets/myPic(2).JPG" style={{width: "20rem"}} id="myPic" alt="A pic of me" />      
+        <img  src={Pic}   style={{width: "20rem"}} id="myPic" alt="A pic of me" />      
         </Col>
          
   
