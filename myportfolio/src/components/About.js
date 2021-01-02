@@ -1,10 +1,11 @@
 import React from "react";
-
+import { Container, Row, Col } from 'react-bootstrap';
 function About() {
   return (
 <div> 
-    <div className="container">
-        <div class="col col-lg-6">
+    <Container>
+    <Row id="aboutMe"> 
+        <Col lg="6">
             <h2>ABOUT ME</h2>
             <article>
                 Hi, My name is Thalia Romany.<br/>
@@ -20,14 +21,14 @@ function About() {
                 <a href="https://github.com/ThaliaRowan"> Github</a><br/>
                         
             </article>
-        </div> 
-        <div class="col col-lg-6">
+        </Col> 
+        <Col lg="6">
         <img src="./assets/myPic(2).JPG" style={{width: "20rem"}} id="myPic" alt="A pic of me" />      
-        </div>
+        </Col>
          
   
-        
-    </div>
+        </Row>
+    </Container>
 </div>
 
         
