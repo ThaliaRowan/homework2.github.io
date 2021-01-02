@@ -22,7 +22,7 @@ function About() {
             </article>
         </div> 
         <div class="col col-lg-6">
-        <img src="./assets/myPic (2).JPG" style="width: 20rem;" id="myPic" />      
+        <img src="./assets/myPic(2).JPG" style={{width: "20rem"}} id="myPic" alt="A pic of me" />      
         </div>
          
   
