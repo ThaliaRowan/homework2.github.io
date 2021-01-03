@@ -7,14 +7,18 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App(){
+    
+
     return (
         <Router>
              <div>
+             
             <Header />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/Contact" component={Contact} />
             <Footer />
+        
         </div>
         </Router>
        
