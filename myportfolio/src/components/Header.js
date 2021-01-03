@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link }  from "react-router-dom";
 
 function Header(){
-    const location = useLocation();
+    
     return(
         <div>
            <nav class="navbar navbar-expand-lg ">
@@ -17,22 +17,25 @@ function Header(){
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li className="nav-item">
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+        <Link to="/about"  className="nav-link">
+        
           About
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/portfolio"
-          className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
           Portfolio
         </Link>
       </li>
       <li className="nav-item">
+     
         <Link
+         className="nav-link"
           to="/contact"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+         
         >
           Contact
         </Link>
