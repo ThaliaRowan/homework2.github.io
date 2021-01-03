@@ -18,9 +18,25 @@ function About() {
 
                 You can reach me on: <br/>          
 
-                <a href="https://www.linkedin.com/in/thalia-romany-559b15183"> LinkedIn
+                  <Row>
+                    <Col sm="3">
+                    <a href="https://www.linkedin.com/in/thalia-romany-559b15183"> LinkedIn
                 </a><br/>     
-                <a href="https://github.com/ThaliaRowan"> Github</a><br/>
+                    </Col>
+                   
+                  <Col sm="3">
+                  <a href="https://github.com/ThaliaRowan"> Github</a><br/>
+                  </Col>
+                   
+                  <Col sm="3">
+                  <a href="https://docs.google.com/document/d/1X-pGg6C-sY-SJBnC2hwekVeOswi4Xguf0Aa75-TVhbU/edit?usp=sharing">Resume</a><br/>
+                  </Col>
+                
+                  <Col sm="3">
+                  <a href="mailto:thalia.rowan@gmail.com">email</a><br/>
+                  </Col>
+                  </Row>
+               
                         
             </article>
         </Col> 

@@ -24,11 +24,29 @@ function Project(){
         {
             
         img: img1,
-        title: "Password Generator",
-        desc: "Weather Dashboard",
+        title: "Weather Dashboard",
+        desc: "Displays weather forcast of current day and future five days for cities searched.",
         techno: "JavaScript, JQuery, OpenWeatherMap API",
         repoLink: "https://github.com/ThaliaRowan/weather_Dashboard.github.io.git",
         pageLink: "https://thaliarowan.github.io/weather_Dashboard.github.io/"
+        },
+
+        {
+        img: remindBags,
+        title: "Remember the bags",
+        desc: "Reminds you to not leave your reusable plastic bag indide the car as you arrive at your grocery.",
+        techno: "JavaScript, JQuery, OpenWeatherMap API, Google Maps API",
+        repoLink: "https://github.com/dougdavidoff/bags.git",
+        pageLink: "https://dougdavidoff.github.io/bags/index.html"
+        },
+
+        {
+            img: Burger,
+        title: "Eat-Da-Burger",
+        desc: "Allows users to devour a burger and uneat it. This stores the users input into a database",
+        techno: "Technologies used: JavaScript,JQuery, Nodejs,Mysql, Express, handlebars",
+        repoLink: "https://github.com/ThaliaRowan/burger.git",
+        pageLink: " https://glacial-falls-49922.herokuapp.com/"
         }
     ]
 
@@ -36,8 +54,8 @@ function Project(){
     const projectCard = (card, index) => {
         return (
             <div>
-                <Card className="box" style={{width: "18rem"}} key={index}>
-                <Card.Img className="card-img-top" src={card.img} alt="Card image cap" />
+                <Card className="box" style={{width: "18rem"}}  key={index}>
+                <Card.Img className="card-img-top" src={card.img} style={{height: '100px' , maxWidth: '100%'}} alt="Card image cap" />
             <Card.Body>
             <Card.Title>{card.title}</Card.Title>
            
