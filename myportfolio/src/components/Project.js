@@ -4,6 +4,8 @@ import  img1 from "../assets/img1.png";
 import remindBags from "../assets/remindBags.jpg";
 import PG from "../assets/pG.png"
 import Burger from "../assets/burger.png"
+import Tlt from "../assets/tlt.png";
+import Budget from "../assets/Budget.png";
 import '../box.css'
 
 
@@ -47,6 +49,25 @@ function Project(){
         techno: "Technologies used: JavaScript,JQuery, Nodejs,Mysql, Express, handlebars",
         repoLink: "https://github.com/ThaliaRowan/burger.git",
         pageLink: " https://glacial-falls-49922.herokuapp.com/"
+        },
+
+        {
+            img: Tlt,
+            title: "TLT",
+            desc: "The TLT is a simple customer & employee facing to-go order application.",
+            techno: "JavaScript, Node.js, Express, MySql, Handlebars",
+            repoLink: "https://github.com/troylochner/tlt_deli.git",
+            pageLink: "https://powerful-wave-95370.herokuapp.com/ "
+            
+        },
+
+        {
+            img: Budget ,
+            title: "Budget-Tracking",
+            desc:"This tracks the user's deposites and expenses. When offline, deposites and expenses are able to be entered and when brought back online, ofline entries will be added to the tracker.",
+            techno: "MongoDB, Mongoose, Express",
+            repoLink: "https://github.com/ThaliaRowan/Budget_Tracking.git",
+            pageLink: "https://floating-savannah-93765.herokuapp.com/"
         }
     ]
 
